@@ -2,134 +2,202 @@
 <html lang="cs">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-warning" data-bs-theme="light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <i class="bi bi-gitlab"></i> Zlate.udoli <i class="bi bi-gitlab"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="zvirata.html">Naše Zvířata</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="plemeno.html">plemeno a péče</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="stenata.html">mláďata</a>
-                    </li>
+  <nav class="navbar navbar-expand-lg bg-warning" data-bs-theme="light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <i class="bi bi-gitlab"></i> Zlate.udoli <i class="bi bi-gitlab"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="zvirata.html">Naše Zvířata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plemeno.html">plemeno a péče</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stenata.html">mláďata</a>
+          </li>
 
-                </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero py-5 bg-warning-subtle text-center">
+    <div class="container">
+      <h1 class="hero py-5 text-center display-1 mb-1">Zlaté Údolí</h1>
+      <p class="lead">specializované zařízení zaměřené na ochranu, péči a dlouhodobou pohodu goril v lidské péči.
+      </p>
+      <a href="#about" class="btn btn-warning btn-lg">Více o nás</a>
+    </div>
+  </section>
+
+
+
+  <section class="Aktuality py-5 container-fluid">
+    <div class="container-fluid">
+      <p class="h2 text-center mb-5">Aktuality v naší stanici</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="muži.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nová spolupráce</h5>
+            <p class="card-text">Naše stanice uzavřela spolupráci se stanicí reptilium</p>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                více
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Zlaté údolí a stanice reptilium byli partneři po dlouhou dobu, ale dnes jsme se rozhodli vzít situaci na
+                jiný level, spojit své síly a dostat pomoc zvířatům k nejlepším výsledkům
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="albin.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Albínská gorila</h5>
+            <p class="card-text">Narodilo se Albínské mládě gorily nížiné</p>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapse" role="button" aria-expanded="false"
+                aria-controls="collapseExample">
+                více
+              </a>
+            </p>
+            <div class="collapse" id="collapse">
+              <div class="card card-body">
+                Albínské mládě Štěpán se narodilo 1. 1. 2026 v 0:00 hodin. Je to jedno z mála gorilích mláďat po celém
+                světě, narozeno s těmito geny.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="gorilakokot.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gorila zachráněna</h5>
+            <p class="card-text">Samec donald byl vyléčen z opičích neštovic</p>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#Example" role="button" aria-expanded="false"
+                aria-controls="collapseExample">
+                více
+              </a>
+            </p>
+            <div class="collapse" id="Example">
+              <div class="card card-body">
+                Když byl samec donald přivezen do naší stanice, vypadalo to s ním velmi špatně, byl těžce nemocný
+                opičími neštovicemi. Naštěstí ho naši doktoři ho zvládli zachránit a díky nim je nyní schopný plně
+                fungovat
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+<div class="about py-5">
+        <div class="container">
+            <div class="row g-3">
+                
+
+
+
+                <div id="about" class="col-md-6 col-xl-4 text-center" >
+                    <h2 class="h1">O nás</h2>
+                    <p> V srdci rozlehlého pralesního údolí, obklopeného bujnou vegetací a zurčícími potoky, se nachází Útulek pro gorily Zlaté údolí – místo, kde nalezly bezpečný domov gorily, které by ve volné přírodě samy nepřežily. Cílem útulku je poskytovat péči, ochranu a druhou šanci gorilám z nelegálních chovů, cirkusů či nevhodných podmínek, a zároveň přispívat k ochraně jejich přírodních populací.</p>
+                    <p> Zdejší tým ošetřovatelů, veterinářů a biologů se stará o to, aby každé zvíře dostalo přesně takovou péči, jakou potřebuje. Gorily mají k dispozici rozsáhlé venkovní výběhy s možností úkrytu i lezení, které co nejvíce napodobují přirozené prostředí tropického lesa. Důraz se klade nejen na fyzickou péči, ale i na psychickou pohodu a přirozené chování – zvířata mají k dispozici různé enrichmenty, tedy hry a aktivity, které podporují jejich zvědavost a mentální stimulaci.
+                    </p>
+                    <p>Mezi nejznámější obyvatele útulku patří gorilí samec Pepek, klidný a rozvážný vůdce skupiny, a samice Anička, hravá a zvídavá družka, která svým temperamentem často probouzí celé údolí k životu. Společně tvoří harmonický pár, který se stal symbolem naděje a druhé šance.</p>
+                </div>
+
+                <div class="col-6 col-lg-8">
+                    <img class="img-fluid col-md-10 float-end" src="goril.jpg" alt="">
+
+                </div>
             </div>
         </div>
-    </nav>
-    <section class="hero py-5 bg-warning-subtle text-center">
-        <div class="container">
-            <h1 class="hero py-5 text-center display-1 mb-1">Zlaté Údolí</h1>
-            <p class="lead">specializované zařízení zaměřené na ochranu, péči a dlouhodobou pohodu goril v lidské péči.
-            </p>
-            <a href="#" class="btn btn-warning btn-lg">Více o nás</a>
-        </div>
-    </section>
 
+      </div>
 
+  <div class="row container-fluid">
+    <div class="d-grid gap-3 col-6 mx-auto">
+      <a href="https://www.instagram.com/slezak_.m/" class="btn btn-primary btn-lg rounded float-start"><i
+          class="bi bi-instagram"></i> Sledujte náš instagram</a>
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#formular" aria-expanded="false"
+        aria-controls="formular" class="btn btn-warning btn-lg rounded float-end"><i class="bi bi-bell"></i> Kontaktujte
+        nás</button>
 
-    <section class="recenze py-5 container-fluid">
-        <div class="container-fluid">
-            <p class="h2 text-center mb-5">Aktuality v naší stanici</p>
-        </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="muži.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Nová spolupráce</h5>
-        <p class="card-text">Naše stanice uzavřela spolupráci se stanicí reptilium</p>
-       <p class="d-inline-flex gap-1">
-  <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    více
-  </a>
-</p>
-<div class="collapse" id="collapseExample">
+<div class="collapse" id="formular">
   <div class="card card-body">
-    Zlaté údolí a stanice reptilium byli partneři po dlouhou dobu, ale dnes jsme se rozhodli vzít situaci na jiný level, spojit své síly a dostat pomoc zvířatům k nejlepším výsledkům
+    <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Emailová adresa</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Váš email neuvidí nikdo jiný.</div>
+  </div>
+  <div class="mb-3">
+   <label for="exampleFormControlTextarea1" class="form-label">Váše zpráva</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Nejsem robot</label>
+  </div>
+  <button type="submit" class="btn btn-warning">Odeslat</button>
+ <div id="necow" class="form-text">Chcete raději zavolat?</div>
+  <label for="exampleInputEmail1" class="form-label">+420 111 111 111</label>
+
+</form>
   </div>
 </div>
-       
-      </div>
+    </div>
+  </div>
+
+   <div class=" py-5 bg-warning-subtle text-center container-fluid">
+    <div class="container">
+      <p class="lead">Všechna práva vyhrazena. Sdílejte a nechte ostatní sdílet za stejných podmínek.
+      </p>
       
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="albin.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Albínská gorila</h5>
-        <p class="card-text">Narodilo se Albínské mládě gorily nížiné</p>
-           <p class="d-inline-flex gap-1">
-  <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
-    více
-  </a>
-</p>
-<div class="collapse" id="collapse">
-  <div class="card card-body">
-   Albínské mládě Štěpán se narodilo 1. 1. 2026 v 0:00 hodin. Je to jedno z mála gorilích mláďat po celém světě, narozeno s těmito geny.
-  </div>
-</div>
-      </div>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="gorilakokot.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Gorila zachráněna</h5>
-        <p class="card-text">Samec donald byl vyléčen z opičích neštovic</p>
-            <p class="d-inline-flex gap-1">
-  <a class="btn btn-warning" data-bs-toggle="collapse" href="#Example" role="button" aria-expanded="false" aria-controls="collapseExample">
-    více
-  </a>
-</p>
-<div class="collapse" id="Example">
-  <div class="card card-body">
-   Když byl samec donald přivezen do naší stanice, vypadalo to s ním velmi špatně, byl těžce nemocný opičími neštovicemi. Naštěstí ho naši doktoři ho zvládli zachránit a díky nim je nyní schopný plně fungovat
-  </div>
-</div>
-      </div>
-      
-    </div>
-  </div>
-</div>
 
 
-    </section>
-
-<div class="row container-fluid">
-  <div class="d-grid gap-3 col-6 mx-auto">
-   <button type="button" class="btn btn-primary btn-lg rounded float-start"><i class="bi bi-instagram"></i> Sledujte náš instagram</button>
-<button type="button" class="btn btn-warning btn-lg rounded float-end"><i class="bi bi-bell"></i> Kontaktujte nás</button>
-  </div>
-</div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
 </body>
 
